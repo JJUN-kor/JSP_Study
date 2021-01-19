@@ -22,7 +22,7 @@ public class ThirdServlet extends HttpServlet {
 				e.printStackTrace();
 			}
 		}
-		out.print("<br>½ÇÇà¿Ï·á!");
+		out.print("<br>ì™„ë£Œ");
 
 		out.close();
 	}
