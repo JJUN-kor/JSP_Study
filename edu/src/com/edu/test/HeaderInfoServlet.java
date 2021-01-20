@@ -9,7 +9,7 @@ import java.util.*;
 @WebServlet("/headerInfo")
 public class HeaderInfoServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
-		res.setContentType("text/html;charset=EUC-KR");
+		res.setContentType("text/html;charset=UTF-8");
 		PrintWriter out = res.getWriter();
 		out.print("<html>");
 		out.print("<head><title>Request Header Info</title></head>");

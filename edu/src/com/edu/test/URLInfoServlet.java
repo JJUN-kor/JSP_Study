@@ -8,7 +8,7 @@ import javax.servlet.http.*;
 @WebServlet("/urlInfo")
 public class URLInfoServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
-		res.setContentType("text/html;charset=EUC-KR");
+		res.setContentType("text/html;charset=UTF-8");
 		PrintWriter out = res.getWriter();
 		out.print("<html>");
 		out.print("<head><title>Request URL Info</title></head>");
