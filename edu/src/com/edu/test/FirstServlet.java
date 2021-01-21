@@ -9,7 +9,6 @@ import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 
-@WebServlet("/first")
 public class FirstServlet extends HttpServlet{
 
 	@Override

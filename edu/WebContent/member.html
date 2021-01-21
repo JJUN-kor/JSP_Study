@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form Test</title>
+</head>
+<body>
+	<h3>회원 정보(queryTest)</h3>
+	<form action="queryTest" method="GET">
+	<!-- <form action ="queryTest" method="Post"> -->
+		ID : <input type="text" name="id"/><br/>
+		PassWord : <input type="text" name="pwd"/><br/>
+		Name : <input type="text" name="name"/><br/>
+		Hobby : 
+		<input type="checkbox", name="hobby" value="climbing"/>climbing
+		<input type="checkbox", name="hobby" value="sprots"/>sports
+		<input type="checkbox", name="hobby" value="reading"/>reading
+		<input type="checkbox", name="hobby" value="traveling"/>traveling <br/>
+		Sex : 
+		<input type="radio" name="gender" value="male"/> Male
+		<input type="radio" name="gender" value="female"/> Female<br/>
+		Religion : 
+		<select name="religion">
+			<option value="Christianity"> 기독교
+			<option value="Buddhism"> 불교
+			<option value="Catholicism"> 천주교
+			<option value="athesim"> 무교
+		</select> <br/>
+		Introduction : <br/>
+		<textarea rows="10" cols="30" name="introduction"></textarea><br/>
+		
+		<input type="submit" value="submit"/>
+		<input type="reset" value="reset"/>
+		
+	</form>
+	
+	-----------------------------------------------------------------------
+	
+	<h3>회원 정보 (queryTest2)</h3>
+	<form action="queryTest2" method="POST">
+		ID : <input type="text" name="id"/><br/>
+		PassWord : <input type="text" name="pwd"/><br/>
+		Name : <input type="text" name="name"/><br/>
+		Hobby : 
+		<input type="checkbox", name="hobby" value="climbing"/>climbing
+		<input type="checkbox", name="hobby" value="sprots"/>sports
+		<input type="checkbox", name="hobby" value="reading"/>reading
+		<input type="checkbox", name="hobby" value="traveling"/>traveling <br/>
+		Sex : 
+		<input type="radio" name="gender" value="male"/> Male
+		<input type="radio" name="gender" value="female"/> Female<br/>
+		Religion : 
+		<select name="religion">
+			<option value="Christianity"> 기독교
+			<option value="Buddhism"> 불교
+			<option value="Catholicism"> 천주교
+			<option value="athesim"> 무교
+		</select> <br/>
+		Introduction : <br/>
+		<textarea rows="10" cols="30" name="introduction"></textarea><br/>
+		
+		<input type="submit" value="submit"/>
+		<input type="reset" value="reset"/>
+		
+	</form>
+	
+</body>
+</html>
