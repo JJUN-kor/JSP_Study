@@ -20,7 +20,7 @@
 			//DB URL
 			String url = "jdbc:mysql://localhost:3306/AHDB";
 			String id = "root";
-			String pwd = "ekzmekzm1!";
+			String pwd = "*********";
 			Connection conn = DriverManager.getConnection(url, id ,pwd);
 		
 			//Statement
